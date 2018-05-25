@@ -1,3 +1,6 @@
+# compiled ts
+*.js
+
 # Logs
 logs
 *.log
