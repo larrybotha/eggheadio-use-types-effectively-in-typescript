@@ -16,4 +16,9 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
     If a signature or type is not provided, the types are inferred. This applies
     to functions where return type is not defined, too.
 
+- [03 - Union types and type aliases](/03/index.ts)
+
+    Takeaways:
+
+
 
