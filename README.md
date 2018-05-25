@@ -20,5 +20,8 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 
     Takeaways:
 
+    Union types are disjunctions of types, as in Haskell.
 
+    One must take care when using objects in union types - if a property in one
+    literal is not found in another literal the compiler will throw an error.
 
