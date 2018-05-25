@@ -18,7 +18,7 @@ let targetInferred = document.getElementById('target');
 targetInferred.onclick = event => event.button;
 
 let targetExplicit: HTMLElement = document.getElementById('target');
-targetExplicit.onclick = (event: MouseEvent) => event.button;
+targetExplicit.onclick = (event: MouseEvent): number => event.button;
 
 let targetTypeError: HTMLElement = document.getElementById('target');
 // expecting type 'Event' but signature defines an Element
