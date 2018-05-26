@@ -25,3 +25,8 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
     One must take care when using objects in union types - if a property in one
     literal is not found in another literal the compiler will throw an error.
 
+
+- [04 - Distinguishing between types of strings](/04/index.ts)
+
+    Takeaways:
+
