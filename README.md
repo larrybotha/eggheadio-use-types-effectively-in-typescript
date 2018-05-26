@@ -40,3 +40,7 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 
     Interfaces abstract types, can have optional properties, and can extend
     other interfaces.
+
+- [06 - Creating a class](/06/index.ts)
+
+    Takeaways:
