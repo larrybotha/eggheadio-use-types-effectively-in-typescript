@@ -30,3 +30,7 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 
     Takeaways:
 
+    String variable types allow any string to be assigned to a variable.
+
+    String literal types allow only values soecified in the type union to be
+    assigned to a variable or parameter;
