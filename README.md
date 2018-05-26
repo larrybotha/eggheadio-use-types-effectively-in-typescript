@@ -25,7 +25,6 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
     One must take care when using objects in union types - if a property in one
     literal is not found in another literal the compiler will throw an error.
 
-
 - [04 - Distinguishing between types of strings](/04/index.ts)
 
     Takeaways:
@@ -34,3 +33,7 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 
     String literal types allow only values soecified in the type union to be
     assigned to a variable or parameter;
+
+- [05 - Using interfaces to describe types](/05/index.ts)
+
+    Takeaways:
