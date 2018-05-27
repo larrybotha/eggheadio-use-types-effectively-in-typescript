@@ -57,3 +57,13 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 
     Takeaways:
 
+    If a derived class has a `constructor` method, then it will be called.
+    Accessing `this` inside the `constructor` can only be done once `super` is
+    called - calling the super class' constructor.
+
+    If a derived class does not have a `constructor`, then the `constructor` in
+    the parent class will be called.
+
+    `protected` properties work in a similar way to `private` properties, except
+    that they can be accessed within derived classes. `private` properties are
+    only accessible within the class in which they are defined.
