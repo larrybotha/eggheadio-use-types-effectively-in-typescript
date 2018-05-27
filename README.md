@@ -89,3 +89,9 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
     ```typescript
     (<MyType>myObject).property
     ```
+9. [Basic of generics](/09/index.ts)
+
+    Takeaways:
+
+    Generics allow us to write reusable code where the type is set at the
+    location the function is called.
