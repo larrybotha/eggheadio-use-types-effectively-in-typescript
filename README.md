@@ -95,3 +95,6 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 
     Generics allow us to write reusable code where the type is set at the
     location the function is called.
+10. [Practical generics](/10/index.ts)
+
+    Takeaways:
