@@ -67,3 +67,25 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
     `protected` properties work in a similar way to `private` properties, except
     that they can be accessed within derived classes. `private` properties are
     only accessible within the class in which they are defined.
+8. [Using assertion to convert types](/08/index.ts)
+
+    Takeaways:
+
+    Type assertions are compile-time only in TypeScript - once compiled, the
+    assertions are gone.
+
+    Type assertions in TypeScript have the form:
+
+    ```typescript
+    object as MyType
+
+    // e.g.
+    if ((myObject as TypeOne).property) { ... }
+    ```
+
+    Assertions were previously defined using angled brackets, with the newer
+    `as` syntax added after the angled-bracket syntax conflicted with JSX:
+
+    ```typescript
+    (<MyType>myObject).property
+    ```
