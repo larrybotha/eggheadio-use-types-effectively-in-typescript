@@ -98,3 +98,8 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 10. [Practical generics](/10/index.ts)
 
     Takeaways:
+
+    Constraints allow one to specify which types may be passed to a generic.
+
+    Autocompletion on instances of interfaces and classes adapts to the type
+    passed to the generic.
