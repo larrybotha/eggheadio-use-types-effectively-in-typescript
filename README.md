@@ -44,3 +44,11 @@ Annotations and learning from https://egghead.io/courses/up-and-running-with-typ
 - [06 - Creating a class](/06/index.ts)
 
     Takeaways:
+
+    TypeScript allows one to define class properties via the constructor by
+    defining parameters as either `public` or `private`. Params that are neither
+    `public` or `private` are not made into class properties.
+
+    Non-static proeprties are simply added to the prototype on the class (check
+    compiled code using `$ tsc 06/index.js` to compile). Static methods and
+    properties are defined directly on the class.
